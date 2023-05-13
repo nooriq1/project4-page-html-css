@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <title>makar</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;500&display=swap" rel="stylesheet">
+   <style>
+
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.tip {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.tip h2 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.tip p {
+  color: #666;
+}
+
+.tip:last-child {
+  margin-bottom: 0;
+}
+
+.tip:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tip:nth-child(odd) {
+  background-color: #fff;
+}
+
+.tip p.dangerous {
+  color: red;
+  font-weight: bold;
+}
+
+   </style>
+
+</head>
+   <body class="main-layout">
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+      </div>
+      <div id="mySidepanel" class="sidepanel">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+         <a href="index.html">الصفحة الرئيسية</a>
+         <a href="#about">حول الشركة</a>
+         <a href="#we_Do">ماذا نقدم </a>
+         <a href="team.html">الفريق الخاص بنا</a>
+         <a href="#contact">للتواصل</a>
+         <a href="statistics.html">احصائيات</a>
+         <a href="save.html">كيف احمي نفسي ؟</a>
+         <a href="test.html">اختبر كلمة مرور حسابي</a>
+      </div>
+      <header>
+         <div class="header">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                     <div class="sea_icon d_none ">
+                        <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                           <div class="logo">
+                              <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                     <div class="right_bottun">
+                        <button class="openbtn" onclick="openNav()"><img src="images/menu_icon.png" alt="#"/> </button> 
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+     
+      <section class="banner_main">
+         <div id="banner1" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+               <li data-target="#banner1" data-slide-to="0" class="active"></li>
+               <li data-target="#banner1" data-slide-to="1"></li>
+               <li data-target="#banner1" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container">
+                     <div class="carousel-caption">
+                        <div class="text-bg">
+                           <h1>Cyber</h1>
+                           <span>Security</span>
+                           <a class="read_more" href="#">للتواصل</a>
+                           <ul class="social_team">
+                              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="carousel-caption">
+                        <div class="text-bg">
+                           <h1>Cyber</h1>
+                           <span>Security</span>
+                           <a class="read_more" href="#">للتواصل</a>
+                           <ul class="social_team">
+                              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="carousel-caption">
+                        <div class="text-bg">
+                           <h1>Cyber</h1>
+                           <span>Security</span>
+                           <a class="read_more" href="#">للتواصل</a>
+                           <ul class="social_team">
+                              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a class="carousel-control-prev" href="#banner1" role="button" data-slide="prev">
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            </a>
+            <a class="carousel-control-next" href="#banner1" role="button" data-slide="next">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </a>
+         </div>
+      </section>
+     
+
+
+
+
+
+
+
+
+      <h1>نصائح للوقاية من الاختراقات</h1>
+  
+      <div class="tip">
+        <h2>1. قم بتحديث البرامج بشكل منتظم</h2>
+        <p>قم بتحديث نظام التشغيل وبرامج مكافحة الفيروسات وغيرها من التطبيقات بشكل منتظم لحماية نفسك من الثغرات المعروفة.</p>
+      </div>
+      
+      <div class="tip">
+        <h2>2. استخدم كلمات مرور قوية</h2>
+        <p>استخدم كلمات مرور فريدة وقوية لكل حساب، وامزج بين الحروف الكبيرة والصغيرة والأرقام والرموز الخاصة.</p>
+      </div>
+      
+      <div class="tip">
+        <h2>3. احذر من رسائل البريد الاحتيالية</h2>
+        <p>تجنب النقر على الروابط المشبوهة أو تنزيل المرفقات من مصادر غير معروفة. كن حذرًا من رسائل البريد الاحتيالية ومحاولات الاحتيال.</p>
+      </div>
+      
+      <div class="tip">
+        <h2>4. قم بتمكين التوثيق المزدوج</h2>
+        <p>قم بتمكين التوثيق المزدوج في حالته متاحة لإضافة طبقة إضافية من الأمان لحساباتك عبر الإنترنت.</p>
+      </div>
+      
+      <div class="tip">
+        <h2>5. آمن شبكة الواي فاي الخاصة بك</h2>
+        <p>قم بتعيين كلمة مرور قوية لشبكة الواي فاي الخاصة بك واستخدم بروتوكولات التشفير مثل WPA2 لمنع الوصول غير المصرح به.</p>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      <footer>
+        <div class="footer">
+           <div class="container">
+              <div class="row">
+                 <div class="col-md-4">
+                    <h3>معلومات عن الشركة</h3>
+                    <p>تهتم شركتنا تقييم الأمان: توفر الشركة تقييمًا شاملاً للأنظمة والشبكات لتحديد الثغرات الأمنية ونقاط الضعف. يتم تحليل الأنظمة بواسطة خبراء الأمان لتحديد التهديدات المحتملة ووضع استراتيجيات لمعالجتها.
+                    </p>
+                 </div>
+                 <div class="col-md-4">
+                    <div class="fid_box">
+                       <h3>كيف تجدنا  </h3>
+                       <ul class="location_icon">
+                          <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a><br> العراق <br>بغداد</li>
+                          <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a><br>
+                             (+964) 078042211312<br> (+964) 078042211312
+                          </li>
+                          <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a><br> sec@gmail.com</li>
+                       </ul>
+                    </div>
+                 </div>
+                 <div class="col-md-4">
+                    <div class="fid_box">
+                       <h3>رسالة سريعة</h3>
+                       <form class="news_form">
+                          <input class="letter_form" placeholder=" Email" type="text" name="Email">
+                          <button class="sumbit">ارسل</button>
+                       </form>
+                       <ul class="social_icon">
+                          <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                          <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                          <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                       </ul>
+                    </div>
+                 </div>
+              </div>
+           </div>
+           <div class="copyright">
+              <div class="container">
+                 <div class="row">
+                    <div class="col-md-12">
+                       <p>©  جميع الحقوق محفوظة  </a></p>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </footer>
+     
+     <script src="js/jquery.min.js"></script>
+     <script src="js/popper.min.js"></script>
+     <script src="js/bootstrap.bundle.min.js"></script>
+     <script src="js/jquery-3.0.0.min.js"></script>
+   
+     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+     <script src="js/custom.js"></script>
+     <script>
+        function openNav() {
+          document.getElementById("mySidepanel").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidepanel").style.width = "0";
+        }
+     </script>
+     <script>
+        function initMap() {
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 11,
+            center: {lat: 40.645037, lng: -73.880224},
+            });
+        
+        var image = 'images/maps-and-flags.png';
+        var beachMarker = new google.maps.Marker({
+            position: {lat: 40.645037, lng: -73.880224},
+            map: map,
+            icon: image
+          });
+        }
+     </script>
+  </body>
+</html>
+
